@@ -31,7 +31,8 @@ public class readExcel {
 //                    System.out.println(cell.getContents());
 //                }
 //            }
-            Cell cell = sheet.getCell(i,j);
+
+            Cell cell = sheet.getCell(i,j); //获取i列j行的单元格内容
             String  name = cell.getContents();
             System.out.println(name);
             System.out.println("hhhh");
