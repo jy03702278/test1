@@ -15,7 +15,7 @@ public class fanXing {
         books.add("maoyujia");
         books.add("chenjingchou");
         System.out.println(books);
-        books.forEach(ele->System.out.println(ele.length()));
+//        books.forEach(ele->System.out.println(ele.length()));
 
         assert books.contains("chenjingchou"):"chenjingchou is not exist";
 
@@ -23,6 +23,8 @@ public class fanXing {
         company.put("salary1",3000);
         company.put("salary2",4000);
         System.out.println(company);
-        company.forEach((key,value)->System.out.println(key+":"+value));
+//        company.forEach((key,value)->System.out.println(key+":"+value));
+        System.out.println(company.get("salary1"));
+
     }
 }
